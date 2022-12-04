@@ -1,0 +1,1 @@
+<b-breadcrumb :items="[['label'=>'Home','value'=>'/'],['label'=>'Product','value'=>'/product']]"/>

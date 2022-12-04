@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cf12cb4f8070e3f62d5c53bedaf50244",
+    "packages": [
+        {
+            "name": "php-templates/php-templates",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-templates/php-templates.git",
+                "reference": "ac1f3f30846975388a0a8f9a848c7c5f2188b922"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-templates/php-templates/zipball/ac1f3f30846975388a0a8f9a848c7c5f2188b922",
+                "reference": "ac1f3f30846975388a0a8f9a848c7c5f2188b922",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpTemplates\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Florin Botea",
+                    "homepage": "https://github.com/php-templates",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Php templating engine",
+            "homepage": "https://github.com/florin-botea/php-templates",
+            "keywords": [
+                "php",
+                "templates"
+            ],
+            "support": {
+                "issues": "https://github.com/php-templates/php-templates/issues",
+                "source": "https://github.com/php-templates/php-templates/tree/1.0.5"
+            },
+            "time": "2022-11-20T21:04:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

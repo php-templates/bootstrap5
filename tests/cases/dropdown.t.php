@@ -1,0 +1,1 @@
+<b-dropdown type="dropup" size="sm" v="primary" :items="[['type' => 'title', 'text' => 'dd Title'], ['type' => 'separator'], ['type' => 'text', 'text' => 'dd Text', 'disabled' => 1], ['type' => 'item', 'text' => 'dd Item']]" label="Btn Label" ul_class="dropdown-menu-end"></b-dropdown>
