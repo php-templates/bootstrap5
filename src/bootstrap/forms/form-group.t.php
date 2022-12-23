@@ -25,7 +25,7 @@
         <slot name="prepend">
           <span class="input-group-text" p-if="$prepend">{{ $prepend }}</span>
         </slot>
-        <slot>
+        <slot p-bind="['attrs' => $attrs]">
           <tpl is="bootstrap:forms/form-control" p-bind="$attrs"></tpl>
         </slot>
         <slot name="append">

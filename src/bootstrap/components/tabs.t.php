@@ -10,7 +10,7 @@ $id = $id ?? 't-'.uniqid();
     </ul>
     <div class="tab-content">
       <div p-foreach="$items as $k => $tmp" class="tab-pane" :class="['fade'=>!isset($fade) || $fade, 'show active'=>$value==$k || (!$value && $loop->IsFirst())]" :id="$k" role="tabpanel" :aria-labelledby="$k.'-tab'">
-         @php $this->slots($k) && reset($this->slots($k))([]); @endphp
+         @php $tmp = $this->slots($k); $this->slots($k) && reset($tmp)([]); @endphp
       </div>
     </div>
 </div>

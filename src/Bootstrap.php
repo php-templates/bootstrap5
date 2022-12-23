@@ -22,7 +22,7 @@ class Bootstrap
     private function getCached()
     {
         $cache = __DIR__ . '/cache.json';
-        if (!file_exists($file) || !json_decode(file_get_contents($file)) || 1) {
+        if (!file_exists($cache) || !json_decode(file_get_contents($cache)) || 1) {// todo
             $json = [];
             // components
             $files = $this->recursiveScanDir(__DIR__ . '/bootstrap/components/');
